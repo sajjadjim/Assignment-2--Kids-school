@@ -168,12 +168,122 @@ margin: -5px 0px -10px 0px;
 }
 
 
+/* section2 css style star form here  */
+.section2_gradient_color{
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.section2 h1{
+    color: rgb(0, 0, 0);
+font-size: 3rem;
+font-weight: 700;
+line-height: 57.5px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.stories_card{
+    display: flex;
+    gap: 20px;
+}
+/* card 1 css style */
+.card_1{
+    background-color: white;
+    border-radius: 16px;
+}
+.card_1 img{
+    border-radius: 16px 16px  0px 0px;
+    width: 100%;
+}
+.card_1 button{
+    border: none;
+    padding: 15px 25px;
+    border-radius: 47.93px;
+background: rgb(60, 216, 232);
+color: white;
+margin-left: 38px;
+top: -25px;
+position: relative;
+}
+.card_1 h4{
+    color: rgb(0, 0, 0);
+font-size: 24px;
+font-weight: 700;
+line-height: 38.35px;
+letter-spacing: 0%;
+text-align: left;
+margin-right: 120px;
+margin-left: 30px;
+}
+.card_1 p{
+    color: rgb(102, 102, 102);
+font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 30px;
+}
+
+.card_2{
+    display: grid;
+    grid-template-columns:repeat(2 , 2fr);
+    gap:20px;
+}
+.card_2 > div{
+    border-radius: 1px solid black;
+    background-color: white;
+    border-radius: 16px;
+}
+.extra{
+    display: none;
+}
+.card_2 div img{
+    border-radius: 16px;
+    border-radius: 16px 16px  0px 0px;
+    width: 100%;
+}
+.card_2 button{
+    border: none;
+    padding: 12px 25px;
+    border-radius: 47.93px;
+color: white;
+margin-left: 38px;
+top: -25px;
+background: rgb(149, 178, 38);
+position: relative;
+}
+.card_2 h5{
+    color: rgb(0, 0, 0);
+font-size: 1rem;
+font-weight: 700;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+margin: -5px 15% -10px 8%;
+
+}
+.stories_btn{
+    display: flex;
+    justify-content: center;
+}
+.stories_btn button{
+    border-radius: 12px;
+    padding: 15px 60px;
+    color: white;
+    margin: 80px 0px 60px 0px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
 
 /* Mobile view screen for css style */
 @media screen and (max-width:590px) {
 
 /* Display None css here */
-.header_nav p ,.list_bar ,.nav_btn{
+.header_nav p ,.list_bar 
+,.nav_btn
+,.card_1{
     display: none;
 }
 
@@ -187,7 +297,7 @@ margin: -5px 0px -10px 0px;
         flex-direction: column-reverse;
     }
 
-    /* Hero page css function */
+/* Hero page css function */
  .hero_img img{
     width: 100%;
  }
@@ -199,17 +309,12 @@ margin: -5px 0px -10px 0px;
     align-items: center;
  }
  .hero_container h1{
-     display: flex;
 flex-direction: column; 
-justify-content: center;
-align-items: center;
-padding-left: 30px;
+text-align: center;
  }
  .hero_container p{
-justify-content: center;
-justify-items: center;
-align-items: center;
-padding-left: 30px;
+text-align: center;
+margin-bottom: 20px;
  }
 
  /* card css part here  */
@@ -231,4 +336,12 @@ margin-top: 40px;
     margin-bottom: -20px;
 }
 
+/* section 2 responsive css start from here  */
+.card_2{
+    display: grid;
+    grid-template-columns:repeat(2 , 2fr);
+}
+.card_2 > div h5{
+margin: 0px 20px 20px 20px;
+} 
 }

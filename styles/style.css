@@ -2,7 +2,10 @@
 * {
     font-family: Quicksand;
 }
-
+body{
+    margin: 0;
+    padding: 0;
+}
 
 /* shared file for all */
 
@@ -234,6 +237,7 @@ margin-left: 30px;
     border-radius: 1px solid black;
     background-color: white;
     border-radius: 16px;
+    cursor: pointer;
 }
 .extra{
     display: none;
@@ -277,6 +281,89 @@ margin: -5px 15% -10px 8%;
     cursor: pointer;
 }
 
+/* footer section start from here  */
+
+.footer{
+    background-color: rgb(1, 172, 253);
+     border: 1px solid rgb(255, 255, 255); 
+}
+.footer_contain{
+    margin-top: 120px;
+    margin-bottom: 123px;
+    margin: 123px 220px 170px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_contain >div{
+
+}
+.text_footer{
+ display: flex;
+ flex-direction: column;
+} 
+.text_footer div{
+    display: flex;
+    align-items: center;
+    
+}
+.text_footer img{
+    width:90px;
+    height: 90px;
+}
+.text_footer .p{
+    color: rgb(255, 255, 255);
+font-size: 42.14px;
+font-weight: 700;
+line-height: 39.51px;
+letter-spacing: 0%;
+text-align: left;
+}
+.text_footer p{
+    color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+width: 400px;
+}
+.footer_list h4{
+color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer_list ul{
+    list-style: none;
+    position: relative;
+    left: -37px;
+}
+.footer_list ul li{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+.footer_social h4{
+    color: rgb(255, 255, 255);
+font-size: 26px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer_social ul{
+display: flex;
+gap: 25px;
+list-style: none;
+position: relative;
+left: -38px;
+}
+
 /* Mobile view screen for css style */
 @media screen and (max-width:590px) {
 
@@ -289,7 +376,8 @@ margin: -5px 15% -10px 8%;
 
     /* shared Function  */
     .margin ,.hero_container 
-    ,.section1{
+    ,.section1
+    ,.footer_contain{
         margin: 0px  10px;
     }
     .container_header 
@@ -344,4 +432,12 @@ margin-top: 40px;
 .card_2 > div h5{
 margin: 0px 20px 20px 20px;
 } 
+
+
+/* footer media query */
+.footer_contain{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
 }

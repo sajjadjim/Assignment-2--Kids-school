@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+* {
+    font-family: Quicksand;
+}
+
+
+/* shared file for all */
+
+.margin {
+    margin: 0px 140px;
+}
+
+.btn{
+    padding: 16px 61px;
+}
+
+.btn{
+    border-radius: 12px;
+    padding: 15px 60px;
+    text-decoration: none;color: white;
+    background-color: rgb(254, 163, 1);
+    border: none;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+font-size: 1.3rem;
+font-weight: 600;
+}
+/* logo style start here  */
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    align-items: center;
+    
+}
+
+.logo_style {
+    display: flex;
+}
+.logo_style img{
+width: 50px;
+height: 50px;
+margin-top: 18px;
+}
+.logo_style p {
+    color: rgb(17, 17, 17);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.list_bar ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.list_bar ul >li{
+font-size: 1.3rem;
+font-weight: 500;
+text-align: left;
+}
+
+
+/* header container details */
+.container_header {
+    display: flex;
+
+}
+.hero_container{
+    margin-right: 50px;
+    margin-top: 120px;
+    margin-bottom: 120px; 
+}
+
+.container_header h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.container_header p {
+    color: rgb(17, 17, 17);
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}

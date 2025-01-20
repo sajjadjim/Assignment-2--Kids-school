@@ -92,3 +92,143 @@ text-align: left;
     letter-spacing: 0%;
     text-align: left;
 }
+.hero_btn{
+    background-color: black;
+}
+.hero_btn a{
+color: white;
+background-color: black;
+font-size: 1.2rem;
+}
+
+/* section1 css start from here  */
+.section1{
+    background-image: url("assets/bg.png");
+}
+.section1 h1{
+color: rgb(0, 0, 0);
+font-size: 3rem;
+font-weight: 700;
+line-height: 57.5px;
+letter-spacing: 0%;
+text-align: center;
+}
+.cirruculum_card{
+   display: flex;
+   margin-top: 80px;
+   gap: 35px;
+   justify-content: center;
+
+}
+.cirruculum_card > div{
+ align-items: center;
+ border-radius: 10px;
+ box-sizing: border-box;
+border-radius: 18.86px;
+display: grid;
+justify-items: center;
+position: relative;
+width: 367.8px;
+height: 476.78px;
+}
+.cirruculum_card div img{
+    margin-top: 10px;
+}
+.cirruculum_card div h3{
+    color: rgb(32, 32, 32);
+font-size: 1.6rem;
+font-weight: 700;
+line-height: 30.65px;
+text-align: center;
+margin: -5px 0px -10px 0px;
+}
+.cirruculum_card div p{
+    margin: 0px 35px;
+    text-align: center;
+}
+.cirruculum_card div a{
+    margin: 10px 0px 40px 0px ;
+    text-decoration: none;
+}
+
+
+/* scroll abr css file */
+
+.scroll_bar{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.scroll_bar div img{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+
+
+/* Mobile view screen for css style */
+@media screen and (max-width:590px) {
+
+/* Display None css here */
+.header_nav p ,.list_bar ,.nav_btn{
+    display: none;
+}
+
+    /* shared Function  */
+    .margin ,.hero_container 
+    ,.section1{
+        margin: 0px  10px;
+    }
+    .container_header 
+    ,.cirruculum_card{
+        flex-direction: column-reverse;
+    }
+
+    /* Hero page css function */
+ .hero_img img{
+    width: 100%;
+ }
+ .hero_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+ }
+ .hero_container h1{
+     display: flex;
+flex-direction: column; 
+justify-content: center;
+align-items: center;
+padding-left: 30px;
+ }
+ .hero_container p{
+justify-content: center;
+justify-items: center;
+align-items: center;
+padding-left: 30px;
+ }
+
+ /* card css part here  */
+ .section1 h1{
+color: rgb(0, 0, 0);
+font-size: 26px;
+font-weight: 700;
+text-align: center;
+margin-bottom: -70px;
+margin-top: 40px;
+ }
+.cirruculum_card{
+    align-items: center;
+}
+.cirruculum_card div p{
+    padding:  0px 30px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+
+}

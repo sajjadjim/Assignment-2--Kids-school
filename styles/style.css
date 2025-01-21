@@ -324,6 +324,15 @@ main {
     cursor: pointer;
 }
 
+.marquee_css {
+    background-color: rgb(236, 236, 200);
+    height: 100%;
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: -25px;
+    padding-left: 20px;
+}
+
 /* footer section start from here  */
 
 .footer {
@@ -422,7 +431,8 @@ main {
     .header_nav p,
     .list_bar,
     .nav_btn,
-    .card_1 {
+    .card_1,
+    .scroll_bar {
         display: none;
     }
 
@@ -521,6 +531,19 @@ main {
     }
 
     .text_footer p {
-        margin-top: 5px;
+        margin-top: -10px;
+    }
+
+    .text_footer div .p {
+        margin-top: 55px;
+    }
+
+    .marquee_css {
+        background-color: rgb(189, 136, 24);
+        height: 100%;
+        width: 100%;
+        margin-top: -20px;
+        margin-bottom: -20px;
+        padding-left: 20px;
     }
 }

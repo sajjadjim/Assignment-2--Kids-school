@@ -157,6 +157,11 @@ main {
     position: relative;
     width: 367.8px;
     height: 476.78px;
+    transition: 3.5s;
+}
+
+.curriculum_card>div:hover {
+    transform: scale(1.1);
 }
 
 .curriculum_card div img {
@@ -458,9 +463,12 @@ main {
         margin: 0px 10px;
     }
 
-    .container_header,
-    .curriculum_card {
+    .container_header {
         flex-direction: column-reverse;
+    }
+
+    .curriculum_card {
+        flex-direction: column;
     }
 
     /* Hero page css function */
@@ -505,6 +513,10 @@ main {
         text-align: center;
         margin-top: -10px;
         margin-bottom: -20px;
+    }
+
+    .curriculum_card>div:hover {
+        transform: none;
     }
 
     /* section 2 responsive css start from here  */

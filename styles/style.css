@@ -65,9 +65,14 @@ margin-top: 18px;
 font-size: 1.3rem;
 font-weight: 500;
 text-align: left;
+cursor: pointer;
 }
-
-
+.menu_bar{
+    display: none;
+}
+.hr_line{
+    display: none;
+}
 /* header container details */
 .container_header {
     display: flex;
@@ -104,10 +109,11 @@ background-color: black;
 font-size: 1.2rem;
 }
 
-/* section1 css start from here  */
-.section1{
-    background-image: url("assets/bg.png");
+/* main section css file start from here */
+main{
+    background-image: url("../assets/bg.png");
 }
+/* section1 css start from here  */
 .section1 h1{
 color: rgb(0, 0, 0);
 font-size: 3rem;
@@ -116,14 +122,14 @@ line-height: 57.5px;
 letter-spacing: 0%;
 text-align: center;
 }
-.cirruculum_card{
+.curriculum_card{
    display: flex;
    margin-top: 80px;
    gap: 35px;
    justify-content: center;
 
 }
-.cirruculum_card > div{
+.curriculum_card > div{
  align-items: center;
  border-radius: 10px;
  box-sizing: border-box;
@@ -134,10 +140,10 @@ position: relative;
 width: 367.8px;
 height: 476.78px;
 }
-.cirruculum_card div img{
+.curriculum_card div img{
     margin-top: 10px;
 }
-.cirruculum_card div h3{
+.curriculum_card div h3{
     color: rgb(32, 32, 32);
 font-size: 1.6rem;
 font-weight: 700;
@@ -145,11 +151,11 @@ line-height: 30.65px;
 text-align: center;
 margin: -5px 0px -10px 0px;
 }
-.cirruculum_card div p{
+.curriculum_card div p{
     margin: 0px 35px;
     text-align: center;
 }
-.cirruculum_card div a{
+.curriculum_card div a{
     margin: 10px 0px 40px 0px ;
     text-decoration: none;
 }
@@ -294,9 +300,6 @@ margin: -5px 15% -10px 8%;
     display: flex;
     justify-content: space-between;
 }
-.footer_contain >div{
-
-}
 .text_footer{
  display: flex;
  flex-direction: column;
@@ -364,7 +367,7 @@ position: relative;
 left: -38px;
 }
 
-/* Mobile view screen for css style */
+/* ----------------Mobile view screen for css style---------------------- */
 @media screen and (max-width:590px) {
 
 /* Display None css here */
@@ -373,7 +376,17 @@ left: -38px;
 ,.card_1{
     display: none;
 }
-
+.hr_line{
+    display: block;
+}
+.menu_bar{
+    display: block;
+}
+/* line css border */
+.hr_line{
+    margin-top: 12px;
+border-bottom: 2px solid orange;
+}
     /* shared Function  */
     .margin ,.hero_container 
     ,.section1
@@ -381,7 +394,7 @@ left: -38px;
         margin: 0px  10px;
     }
     .container_header 
-    ,.cirruculum_card{
+    ,.curriculum_card{
         flex-direction: column-reverse;
     }
 
@@ -414,10 +427,10 @@ text-align: center;
 margin-bottom: -70px;
 margin-top: 40px;
  }
-.cirruculum_card{
+.curriculum_card{
     align-items: center;
 }
-.cirruculum_card div p{
+.curriculum_card div p{
     padding:  0px 30px;
     text-align: center;
     margin-top: -10px;

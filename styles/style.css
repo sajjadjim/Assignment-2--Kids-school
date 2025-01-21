@@ -92,7 +92,7 @@ body {
 }
 
 .hero_container {
-    margin-right: 50px;
+    margin-right: 120px;
     margin-top: 120px;
     margin-bottom: 120px;
 }
@@ -324,6 +324,7 @@ main {
     padding: 15px 60px;
     color: white;
     margin: 80px 0px 60px 0px;
+    font-size: 1.4rem;
     background-color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
@@ -410,6 +411,7 @@ main {
     line-height: 25px;
     letter-spacing: 0%;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .footer_social h4 {

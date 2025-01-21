@@ -103,7 +103,6 @@ body {
     line-height: 61px;
     letter-spacing: 0%;
     text-align: left;
-    margin-top: 70px;
 }
 
 .container_header p {
@@ -138,6 +137,7 @@ main {
     line-height: 57.5px;
     letter-spacing: 0%;
     text-align: center;
+    margin-top: 70px;
 }
 
 .curriculum_card {
@@ -504,7 +504,7 @@ main {
         font-weight: 700;
         text-align: center;
         margin-bottom: -70px;
-        margin-top: 40px;
+        margin-top: 70px;
     }
 
     .curriculum_card {
@@ -531,7 +531,9 @@ main {
     .card_2>div h5 {
         margin: 0px 20px 20px 20px;
     }
-
+.section2 h1{
+    margin-top: 70px;
+}
 
     /* footer media query */
     .footer_contain {
